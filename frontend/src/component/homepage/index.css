@@ -1,0 +1,15 @@
+.homepage {
+    width: 50%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.ui.card>.image>img {
+    height: 300px !important;
+}
+
+@media(max-width: 600px) {
+    .homepage {
+        width: 100%
+    }
+}

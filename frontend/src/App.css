@@ -1,0 +1,14 @@
+.app {
+    background-color: #f0f4f8;
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+@media(max-width: 600px) {
+    .app {
+        width: 100%
+    }
+}
