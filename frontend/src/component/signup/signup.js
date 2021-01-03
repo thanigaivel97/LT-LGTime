@@ -35,7 +35,7 @@ export default class login extends Component {
         }
         console.log(body)
 
-        axios.post('http://localhost:8080/auth/signup' , {
+        axios.post('http://52.90.158.82:8080/auth/signup' , {
             // method : 'post',
             // contentType : 'application/json',
            body

@@ -30,7 +30,7 @@ export default class index extends Component {
 
           console.log("enter sign")
          
-          fetch('http://localhost:8080/posts/getPosts' , {
+          fetch('http://52.90.158.82:8080/posts/getPosts' , {
               method : 'post',
              headers: {
               'Authorization': `Bearer ${localStorage.getItem('token')}` 

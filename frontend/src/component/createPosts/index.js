@@ -34,7 +34,7 @@ class index extends Component {
         }
         console.log(body)
 
-        fetch('http://localhost:8080/posts/createPosts' , {
+        fetch('http://52.90.158.82:8080/posts/createPosts' , {
             method : 'POST',
             body : JSON.stringify(body),
            
